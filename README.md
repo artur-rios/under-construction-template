@@ -1,13 +1,5 @@
-# Animated Under Construction Template
+# "Under Construction" Website Placeholder
 
-View the demo [here.](https://tmkamal.github.io/under-construction-template/)
-``` 
-Feel free to use this template for your upcoming projects.
-```
-This template has been built using SVG animation with CSS3.
-
-## Preview
-
-> Actual template is a lot smoother than this.  
-
-![Preview](https://github.com/tmKamal/hosted-images/blob/master/under-construction/Document.gif?raw=true)<br/>  
+- A placeholder for a site under construction
+- Based on <https://github.com/tmKamal/under-construction-template>
+- You can configure your name and icons displayed by changing the file "site-data.js" inside the assets folder
