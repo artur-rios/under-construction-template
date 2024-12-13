@@ -39,4 +39,4 @@ jobs:
         run: ssh server 'cd /repo/under-construction-template && npm run build'
 
       - name: Copy files to deploy folder
-        run: ssh server 'cp -r /repo/under-construction-template/dist/ /var/www/under-construction/'
+        run: ssh server 'cp -r /repo/under-construction-template/dist/. /var/www/under-construction/'
