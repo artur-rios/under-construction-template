@@ -1,4 +1,4 @@
-import { siteData } from "../assets/site-data.js";
+import { siteData } from "./public/site-data.js";
 
 $(document).ready(function () {
   function addDevTitle() {
