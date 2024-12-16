@@ -38,5 +38,8 @@ jobs:
       - name: Build project
         run: ssh server 'cd /repo/under-construction-template && npm run build'
 
+      - name: Clean deploy folder
+        run: ssh server 'rm -r /var/www/under-construction/*'
+
       - name: Copy files to deploy folder
         run: ssh server 'cp -r /repo/under-construction-template/dist/. /var/www/under-construction/'
