@@ -1,0 +1,2 @@
+# The Dockerfile runs in a Linux container: a CRLF checkout on Windows would break it.
+Dockerfile text eol=lf
